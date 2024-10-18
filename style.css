@@ -1,0 +1,56 @@
+body {
+    font-family: "EB Garamond", serif;
+    background-color: #ffccff; /* Light pink background */
+    color: #333; /* Dark text for contrast */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ff66b3; /* Pink heading */
+    margin-top: 50px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.message {
+    font-weight: bold;
+    width: 45%;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ff66b3;
+    border-radius: 10px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.content p {
+    font-size: 20px; /* Ukuran font untuk semua p di dalam content */
+}
+
+footer p {
+    font-size: 22px; /* Ukuran font untuk p di dalam footer */
+    margin-top: 30px; /* Jarak atas untuk footer */
+}
+
+.bold {
+    font-weight: bold;
+}
